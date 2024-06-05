@@ -23,6 +23,30 @@ a {
     margin-right: auto;
 }
 
+.btn {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0 41px;
+    min-width: 186px;
+    line-height: 68px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.title-h1 {
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+}
+
 /* header */
 .header {
     background: #fff;
@@ -81,4 +105,213 @@ a {
     background: #1ebfc1;
     color: white;
     transition: 0.3s;
+}
+
+/* hero left */
+.hero {
+    padding: 42px 0 79px;
+}
+
+.hero .content-block{
+    width: 50%;
+}
+
+.hero .hero-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .content-block .title-top {
+    color: #767E7E;
+    font-size: 1.4rem;
+    padding-top: 93px;
+}
+
+.hero .content-block .title-h1{
+    padding-top: 18px;
+    width: 458px;
+}
+
+.hero .content-block .desc {
+    padding-top: 46px;
+    width: 374px;
+    color: #9DA6A5;
+    font-size: 1.8rem;
+    line-height: 1.77; /* 177.778% */
+}
+
+.hero .content-block .desc-span{
+    display: inline-block;
+}
+
+.hero .content-block .cta-group{
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .cta-group .act-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .cta-group .act-play:hover{
+    background: #eee;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* hero right */
+.hero .media-block{
+    position: relative;
+    width: 50%;
+}
+
+.hero .media-block img{
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .media-course {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .media-course .detail{
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 55px;
+}
+
+.hero .media-block .media-course::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 28px;
+    height: 4px;
+    background: #fff;
+    border-radius: 999px;
+    left: 29px;
+    top: 45px;
+}
+
+.hero .media-block .media-course .img-book{
+    width: 36px;
+    height: 40px;
+}
+
+.hero .media-schedule {
+    position: absolute;
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    top: 453px;
+    left: -65px;
+}
+
+.hero .media-schedule span{
+    margin: 16px 36px 0;
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 16px 35px 0;
+}
+
+.hero .media-schedule .img-schedule{
+    width: 74px;
+    height: 6px;
+}
+
+.hero .media-schedule .schedule1{
+    margin-top: 16px;
+}
+
+.hero .media-schedule .schedule2{
+    margin-top: 12px;
+}
+
+.hero .media-schedule .schedule3{
+    margin-top: 10px;
+}
+
+.hero .media-schedule .schedule4{
+    margin: 16px 49px auto;
+    width: 26px;
+    height: 6px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.hero .media-students{
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    right: 50px;
+    bottom: 45px;
+}
+
+.hero .media-students .detail{
+    display: inline-block;
+    margin: 17px 35px 0;
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .media-students .img-avatar{
+    margin-top: 8px;
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.hero .media-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .media-avatar .avatar-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    background: #1EBFC1;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.hero .media-avatar .avatar-more span{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
 }
